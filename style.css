@@ -1,57 +1,57 @@
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #fafafa;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
-        .container {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
-        .title {
-            font-size: 3rem;
-            font-weight: bold;
-            color: #222;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #222;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
 
-        .description {
-            font-size: 1.2rem;
-            color: #555;
-            margin-bottom: 20px;
-        }
+.description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
 
-        .coming-soon {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #fff;
-            background-color: #5c8f7e;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+.coming-soon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5c8f7e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-        .footer {
-            font-size: 0.9rem;
-            color: #888;
-            margin-top: 30px;
-        }
+.footer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 30px;
+}
 
-        a {
-            color: #5c8f7e;
-            text-decoration: none;
-        }
+a {
+    color: #5c8f7e;
+    text-decoration: none;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+a:hover {
+    text-decoration: underline;
+}
