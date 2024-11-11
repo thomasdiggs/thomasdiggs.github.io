@@ -27,13 +27,13 @@ body {
 .description {
     font-size: 1.2rem;
     color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer {
     font-size: 0.9rem;
     color: #888;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 a {
