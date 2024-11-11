@@ -1,98 +1,57 @@
-/* General reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
 
-/* Body styling */
-body {
-    background-color: #ffcc00; /* Classic yellow background */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Retro font */
-    color: #000000;
-    text-align: center;
-    padding: 50px;
-}
+        .container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
-/* Container styling */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 5px solid #ff0000; /* Red border for that classic late 90s feel */
-    padding: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #222;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
 
-/* Header styling */
-.header {
-    font-size: 4em;
-    color: #ff0000;
-    text-shadow: 3px 3px 0px #00ff00; /* Classic 90s text-shadow effect */
-    margin-bottom: 20px;
-}
+        .description {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
 
-/* Subheader text */
-.subheader {
-    font-size: 1.8em;
-    color: #0000ff;
-    margin-bottom: 20px;
-}
+        .coming-soon {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+            background-color: #5c8f7e;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 
-/* Notice text */
-.notice {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ff6600;
-    margin-bottom: 30px;
-}
+        .footer {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 30px;
+        }
 
-/* Flashing "Coming Soon" text */
-.flashing-text p {
-    font-size: 2em;
-    font-weight: bold;
-    color: #00ff00;
-    animation: flash 1s infinite alternate;
-}
+        a {
+            color: #5c8f7e;
+            text-decoration: none;
+        }
 
-@keyframes flash {
-    0% { color: #00ff00; }
-    50% { color: #ff0000; }
-    100% { color: #0000ff; }
-}
-
-/* GIF styling */
-.gif img {
-    margin-top: 20px;
-    border: 3px solid #ff0000;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Footer styling */
-footer {
-    margin-top: 30px;
-    font-size: 1.2em;
-    color: #333333;
-}
-
-/* Animating footer text */
-footer p {
-    font-style: italic;
-}
-
-/* Nostalgic background animation */
-body {
-    animation: backgroundAnimation 10s infinite linear;
-}
-
-@keyframes backgroundAnimation {
-    0% {
-        background-color: #ffcc00;
-    }
-    50% {
-        background-color: #ff6600;
-    }
-    100% {
-        background-color: #ffcc00;
-    }
-}
+        a:hover {
+            text-decoration: underline;
+        }
