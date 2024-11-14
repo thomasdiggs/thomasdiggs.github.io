@@ -1,0 +1,100 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FAF3E0; /* Light beige */
+    color: #333333; /* Dark gray text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #006699; /* Vintage blue */
+    background-color: #FFFFFF; /* White background */
+    padding: 10px;
+}
+
+.post-content {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366; /* Darker blue */
+    color: #FFFFFF;
+}
+
+header h1 {
+    font-size: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+/* Navigation menu */
+nav {
+    background-color: #CCCCCC; /* Light gray */
+    padding: 5px;
+    margin: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366; /* Dark blue */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF6600; /* Orange highlight on hover */
+}
+
+main {
+    padding: 10px;
+}
+
+main article {
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+main article h2 {
+    color: #003366; /* Dark blue */
+    font-size: 1.5em;
+}
+
+main article p {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    background-color: #CCCCCC; /* Light gray */
+    color: #333333;
+    margin-top: 20px;
+}
