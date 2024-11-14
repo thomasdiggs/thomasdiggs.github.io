@@ -6,3 +6,6 @@ author:
   name: Your Name
   email: contact@computingbitsandbytes.net
 markdown: kramdown
+collections:
+  posts:
+    output: true
