@@ -95,3 +95,127 @@ footer {
     color: #333333;
     margin-top: 20px;
 }
+
+
+/* ChatGPT styles for archive pages */
+.archive h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .archive h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .archive ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  .archive li {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .archive li a {
+    text-decoration: none;
+    color: #007acc;
+    transition: color 0.2s ease;
+  }
+  
+  .archive li a:hover {
+    color: #005f99;
+  }
+  
+  /* ChatGPT styles for post pages */  
+  /* Homepage Latest Post */
+  .latest-post article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .latest-post h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .latest-post .post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .latest-post .excerpt {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #007acc;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more:hover {
+    background-color: #005f99;
+  }
+  
+  /* Post Navigation */
+  .post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .post-navigation a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .post-navigation a:hover {
+    text-decoration: underline;
+  }
+  
+  .older {
+    align-self: flex-start;
+  }
+  
+  .newer {
+    align-self: flex-end;
+  }
+  
+  /* Post Content */
+  .post {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .post h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+.post .post-meta {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.post .post-content {
+    font-size: 1.1em;
+}
