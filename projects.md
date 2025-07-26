@@ -1,6 +1,6 @@
 ---
 layout: default
-title: about
+title: projects
 ---
 # {{ site.title }}
 
@@ -8,6 +8,6 @@ title: about
 
 ---
 
-## about
+## projects
 
-{{ site.description }}
+Projects go here.
