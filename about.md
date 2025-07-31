@@ -1,13 +1,15 @@
 ---
-layout: default
-title: about
----
-# {{ site.title }}
-
-[home]({{ "/" | relative_url }}) &nbsp;&nbsp; [about]({{ "/about" | relative_url }}) &nbsp;&nbsp; [projects]({{ "/projects" | relative_url }})
-
+layout: page
+title: About
+permalink: /about/
 ---
 
-## about
+Some information about you!
 
-{{ site.description }}
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[email@domain.com](mailto:email@domain.com)
