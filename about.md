@@ -1,15 +1,8 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Some information about you!
+This is an example page!
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+It's very similar to a `post` layout, with the only difference that the publish date is not shown!
